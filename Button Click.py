@@ -13,6 +13,3 @@ btn.pack()
 
 window.mainloop()
 
-
-
-bilal is a good guy
