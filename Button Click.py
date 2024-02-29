@@ -12,4 +12,3 @@ btn.pack()
 
 
 window.mainloop()
-
