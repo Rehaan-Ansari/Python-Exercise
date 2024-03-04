@@ -11,4 +11,6 @@ class QuizStarter:
         #padx, pady How many pixels to pad widget, horizontally (x) and vertically (y), outside widget's borders.
         self.quiz_frame.grid()#this geometry manager organizes widgets in a table-like structure in the parent widget.
         
-        #label
+        #label widget for the heading
+        self.heading_label=Label(self.quiz_frame, text="NZ Road Rules", font=("TwCen Mt","18", "bold"), bg=background_color)
+        self.heading_label.grid(row=0, padx=20)
